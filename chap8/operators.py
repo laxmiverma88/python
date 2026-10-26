@@ -30,4 +30,38 @@ a = 5 #assignment operators
 
 a = 10
 b = 20
-print(a>10 and b<10)
+print(a>10 and b<10) #and  operator 
+print(a==10 and b==20) # operator
+print(a==10 or b,10) # or operator 
+
+# Rule for 'or' operator 
+# True + False= true
+
+# 'not' operator
+print(not(a==10 and b==20))
+
+
+# 5. Identity operators - is , is not 
+x = [1,2,3]
+y = x
+z = [1,2,3]
+
+print(x is y) # is operator cheaks memory location
+print(x is z)
+
+print(x is not z) #  is not operator
+
+# 6. Membership operators - in , not in 
+my_list = ['apple', 'banana', 'cherry']
+
+print('apple' in my_list) # in operator     
+print ('apple' in my_list)
+print('apple' not in my_list) # not in operator 
+
+# 7. bitwise operator  - and & , or |, xor,^ not ~, etc
+a = 5  # 101 in binary
+b = 3  # 011 in binary
+print (a & b)  # 1 in binary
+print (a | b)  # 7 in binary
+print (a ^ b)  # 6 in binary
+print (~a)    # -6  
