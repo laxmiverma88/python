@@ -1,4 +1,4 @@
-test# Assignment - 3
+# Assignment - 3
 
 # Leap year:
 # write a simple program to determine if a giveb year is a leap year using user input.print
